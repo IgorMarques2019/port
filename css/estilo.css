@@ -1,0 +1,272 @@
+/* --------------------------- FORMATAÇÕES GERAIS --------------------------- */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+.content {
+  background: linear-gradient(#2e302b, #f8f8f8);
+  padding: 0px 20px;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+/* ------------------------------- #land-title ------------------------------ */
+.land-content {
+  display:block;
+  width: 100%;
+  height: 100%;
+
+
+  /* ------- background:url(https://wallpapercave.com/wp/wp6784383.jpg); ------ */
+  background:url(../media/laand.gif);
+  background-size:cover;
+  background-position:center;
+  background-attachment: fixed;
+  
+}
+
+
+.land-titles {
+  width: inherit;
+  height:inherit;
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+
+  align-items:center;
+  justify-content: center;
+  background-color: rgba(123, 29, 247, 0.644);
+
+  padding:10px;
+  box-sizing: border-box;
+  text-align: center;
+  
+}
+
+
+
+.land-titles {
+  color:white;
+
+}
+.land-titles > h2{
+  color:white;
+  font-size:1.8rem;
+}
+.land-titles > h2 sup{
+  color:white;
+ font-weight:lighter;
+ font-size:0.7rem;
+}
+
+/* -------------------------------- about-me -------------------------------- */
+
+
+#aboutme {
+  max-width:1920px;
+  width:100%;
+  min-height:1080px;
+  height:inherit;
+  box-sizing: border-box;
+  padding:20px;
+  display:flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  justify-content:space-around;
+  align-items: flex-start;
+  justify-content:center;
+  align-items: center;
+  
+  
+}
+
+#perfil {
+  max-width:1240px; 
+  width:100%;
+
+
+  display:flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  justify-content:space-around;
+  align-items: flex-start;
+  padding:10px;
+}
+
+#perfil-foto {
+  width:330px;
+  height:auto;
+}
+#perfil-foto img {
+  width:100%;
+  height:auto;
+}
+
+
+#perfil-info {
+  max-width:790px;
+  width:100%;
+  padding:10px;
+
+}
+#perfil-info h2 {
+  color:rgba(123, 29, 247, 0.644) ;
+  margin:10px 0;
+
+}
+#perfil-info p {
+  font-weight:bold;
+  color:rgba(62, 16, 122, 0.644) ;
+  margin:10px 0;
+  text-align: justify;
+
+}
+
+#lang-programs {
+  width:100%;
+  text-align: center;
+  padding:20px;
+  
+}
+
+
+#lang-programs i{
+ color:#b9b9b9;
+ font-size:2rem;
+ text-align:center;
+ 
+}
+#lang-programs h4{
+ color:#727272;
+ text-align:center;
+ 
+}
+
+/* -------------------------------- PROJETOS -------------------------------- */
+
+#projetos {
+  width:inherit;
+  height:inherit;
+  background:#f1f1f1;
+  padding:20px 10px;
+
+
+
+}
+#projetos h2{
+  text-align: center;
+  color:purple;
+  padding:20px 0px;
+}
+#projetos hr{
+ border:none;
+ height:2px;
+ background-color:#e2e2e2;
+ display:block;
+ max-width:150px;
+ margin:0 auto;
+ margin-bottom:50px;
+}
+
+
+
+#box-ptp {
+  max-width:960px;
+  width:100%;
+  
+  margin:0 auto;
+}
+
+
+.passatempo {
+  width:100%;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin:4px 0px;
+}
+
+
+.p-img {
+  max-width:480px;
+  width:100%;
+}
+.p-img img {
+  display:block;
+  width:100%;
+}
+.p-text {
+  max-width:480px;
+  width:100%;
+ 
+  padding:10px;
+  min-height:236px;
+}
+
+.p-text > p {
+  text-align:justify;
+  
+}
+
+
+
+.candy-shop > .p-img {
+order:2;
+}
+.finans > .p-img {
+order:0;
+}
+.nokia > .p-img {
+order:1;
+}
+
+@media (max-width:960px) {
+
+  .passatempo{
+    border:1px solid rgba(119, 119, 119, 0.336);
+  border-radius:4px;
+  overflow:hidden;
+  }
+  .candy-shop > .p-img {
+    order:0;
+    }
+    .finans > .p-img {
+    order:0;
+    }
+    .nokia > .p-img {
+    order:0;
+    }
+}
+
+
+/* ---------------------------------- #git ---------------------------------- */
+.github {
+  display:block;
+  width:100%;
+  height:800px;
+}
+.git{
+
+  font-size:3rem;
+  color:rgb(110, 9, 241);
+  position:fixed;
+  bottom:20px;
+  right:20px;
+  border-radius:60px;
+}
+
+#message {
+  
+  width:inherit;
+  height:inherit;
+border:1px solid;
+}
